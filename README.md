@@ -5,8 +5,11 @@ How to use it :
 
 ```import Gmap from 'path/Gmap/Gmap';```
 
-```<Gmap items={this.state.items} filterByPosition={(lat,lng) => this.filterByposition(lat,lng)} updateItems={this.state.updateItems} refreshItems={(swLat,swLng,neLat,neLng) => this.refreshItems(swLat,swLng,neLat,neLng)}/>
-```
+```<Gmap items={this.state.items} ```
+```filterByPosition={(lat,lng) => this.filterByposition(lat,lng)} ```
+```updateItems={this.state.updateItems} ```
+```refreshItems={(swLat,swLng,neLat,neLng) => this.refreshItems(swLat,swLng,neLat,neLng)}/>```
+
 
 ``` updateItems ``` is a boolean who needs to be passed at true if you want to update your items 
 
